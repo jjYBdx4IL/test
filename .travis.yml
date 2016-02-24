@@ -1,3 +1,4 @@
+language: java
 script: ./.travis.sh
 env:
   - PROJECTS=123
