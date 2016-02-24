@@ -13,7 +13,7 @@ popd
 mvn clean install -DskipTests -f coherent-logic-foundation-data-model
 mvn clean install -DskipTests -f coherent-logic-fred-client
 mvn install -f coherent-logic-foundation-data-model
-mvn -o test -f coherent-logic-fred-client/fred-client-core-it \
+mvn test -f coherent-logic-fred-client/fred-client-core-it \
     "-Dtest=com.coherentlogic.fred.client.core.builders.QueryBuilderTest#getAllSeries"
 
 
