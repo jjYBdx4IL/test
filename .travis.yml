@@ -1,0 +1,6 @@
+script: ./.travis.sh
+env:
+  - PROJECTS=123
+dist: trusty
+notifications:
+  email: false
